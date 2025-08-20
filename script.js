@@ -63,6 +63,7 @@ function checkwinning(){
 
 
             btn.forEach(button=> button.disabled=true)
+            return;
             
         }
     }
