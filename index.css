@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: pink;
+}
+
+.veryfirst{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    height: 150px;
+    gap:5px
+}
+
+.btn{
+    width:44px;
+    height:44px;
+    border-radius: 5px;
+}
+
+
+.reset, .newgame{
+   
+    padding:10px;
+    border:2px solid blueviolet;
+    border-radius: 10px;
+}
+.reset:hover, .newgame:hover{
+    cursor:pointer ;
+    background-color: aqua;
+    color:black;
+}
+
+
+.newgame{
+    display: none;
+}
+.add{
+    display: block;
+}
+.first{
+    margin: 20px;
+    margin-bottom: 20px;
+    
+    
+
+}
+
+.para, .newgame, .add{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
